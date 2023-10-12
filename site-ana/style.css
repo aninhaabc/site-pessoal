@@ -1,0 +1,184 @@
+@font-face {
+  font-family: migra;
+  src: url(./midia/Migra\ -\ Free\ for\ Personal\ Use/Migra-Extralight.ttf);
+}
+
+@font-face {
+  font-family: DMSans;
+  src: url(./midia/dmsans/DMSans-Regular-BF64376d323f095.ttf)
+
+}
+
+@font-face {
+  font-family: DMSansBold;
+  src: url(./midia/dmsans/DMSans-Bold-BF64376d32191f2.ttf)
+  
+}
+
+body {
+  margin: 0;
+}
+
+
+p {
+  font-family: DMSans;
+}
+span{
+  font-family: DMSansBold;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: migra;
+  font-size: 80px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.textao {
+  height: 25%;
+  font-size: 2em;
+}
+
+.grid-cols-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.bottom-line {
+  border-bottom: white solid 2px;
+  margin-left: 2px;
+  margin-right: 100px;
+}
+
+.pb {
+  padding-bottom: 2em;
+}
+
+.opacity-0 {
+  opacity: 0%;
+}
+
+.grid-rows-5 {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  padding-left: 10px;
+}
+
+.right-image {
+  display: flex;
+  justify-content: right;
+}
+
+.pl {
+  padding-left: 12px;
+}
+
+.quadro {
+  width: 531px;
+  height: 531px;
+  margin: 20px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.justify {
+  display: flex;
+  justify-content: space-around;
+}
+
+.py {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pt {
+  padding-top: 4rem;
+}
+
+.top-shadow {
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.quadro-pequeno {
+  object-fit: cover;
+  align-self: center;
+  width: 60%;
+  height: 200px;
+  margin: 20px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.vertical {
+  object-fit: cover;
+  height: 100%;
+  width: 20%;
+}
+
+.relative {
+  position: relative;
+}
+
+.ml {
+  margin-left: 3rem;
+}
+
+span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 1.7em;
+  cursor: pointer;
+  transform: rotate(-50%, 50%);
+}
+
+.bg-color-1 {
+  background-color: #90996f;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.bg-color-2 {
+  background-color: #a4a67b;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.h1-contato {
+  text-align: center;
+}
+
+.face{
+  height: 180px;
+  width: 180px;
+}
+
+.inst{
+  height: 180px;
+  width: 180px;
+}
+
+.git{
+  height: 200px;
+  width: 180px;
+}
+
+.linke{
+  height: 180px;
+  width: 180px;
+}
